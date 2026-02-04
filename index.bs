@@ -264,7 +264,7 @@ Note: To ensure delivery of NEL reports, the [=server=] should ensure that the R
 
 ### The `include_subdomains` member ### {#include-subdomains-member}
 
-The OPTIONAL <dfn>`include_subdomains`</dfn> member is a boolean that enables this [=NEL policy=] for all subdomains of this origin (to an unlimited subdomain depth). If no member named `include_subdomains` is present in the object, or its value is not `true`, the [=NEL policy=] will not be enabled for subdomains.
+The OPTIONAL <dfn>`include_subdomains`</dfn> member is a boolean that enables this [=NEL policy=] for all subdomains of this origin (to an unlimited subdomain depth), for `dns` [=type-phase|phase=] reports. If no member named `include_subdomains` is present in the object, its value is not `true`, or its [=type-phase|phase=] is not `dns`, the [=NEL policy=] will not be enabled for subdomains.
 
 Note: To ensure delivery of NEL reports for subdomains, the application should ensure that the Reporting [=endpoint group=] is also configured with `include_subdomains` enabled. If the Reporting policy is not, and there is not a separate Reporting policy for a given subdomain, NEL reports for that subdomain will not be delivered, even if the NEL policy includes the subdomain.
 
