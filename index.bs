@@ -35,12 +35,14 @@ urlPrefix: https://html.spec.whatwg.org/multipage/; spec: HTML
     type: attribute
         for: NavigatorOnLine
             text: onLine; url: system-state.html#dom-navigator-online
-urlPrefix: https://w3c.github.io/reporting/; spec: REPORTING
+urlPrefix: https://www.w3.org/TR/reporting-1/; spec: REPORTING
     type: dfn
-        text: report; url: concept-report
+        text: report; url: report
         text: report type; url: report-type
-        text: endpoint group; url: endpoint-group
         text: visible to ReportingObservers; url: visible-to-reportingobservers
+urlPrefix: https://w3c.github.io/reporting/network-reporting.html; spec: REPORTING
+    type: dfn
+        text: endpoint group; url: endpoint-group
         text: Generate a network report; url: generate-a-network-report
 urlPrefix: https://www.w3.org/TR/secure-contexts/; spec: SECURE-CONTEXTS
     type: dfn
@@ -51,7 +53,7 @@ urlPrefix: https://w3c.github.io/hr-time/; spec: HR-TIME
         text: wall clock; url: dfn-wall-clock
         text: unsafe current time; url: dfn-unsafe-current-time
         text: duration from; url: dfn-duration-from
-urlPrefix: https://html.spec.whatwg.org/multipage/webappapis.html; spec: HTML
+urlPrefix: https://fetch.spec.whatwg.org/; spec: HTML
     type: dfn
         text: network partition key; url: network-partition-key
         text: determine the network partition key; url: determine-the-network-partition-key
@@ -62,7 +64,7 @@ urlPrefix: https://url.spec.whatwg.org/; spec: URL
     type: dfn
         text: URL serializer; url: concept-url-serializer
         text: url; url: concept-url
-        text: IP address; url: concept-host-ip-address
+        text: IP address; url: ip-address
 urlPrefix: https://fetch.spec.whatwg.org/; spec: FETCH
     type: dfn
         text: reserved client; url: concept-request-reserved-client
