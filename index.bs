@@ -61,12 +61,8 @@ urlPrefix: https://fetch.spec.whatwg.org/; spec: FETCH
         text: CORS-preflight request; url: cors-preflight-request
         text: CORS protocol; url: cors-protocol
         text: HTTP-network fetch; url: http-network-fetch
-urlPrefix: https://fetch.spec.whatwg.org/; spec: FETCH
-    type: dfn
         text: network partition key; url: network-partition-key
         text: determine the network partition key; url: determine-the-network-partition-key
-urlPrefix: https://fetch.spec.whatwg.org/; spec: FETCH
-    type: dfn
         text: reserved client; url: concept-request-reserved-client
 </pre>
 
