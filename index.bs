@@ -21,14 +21,6 @@ Markup Shorthands: markdown yes
 </pre>
 
 <pre class="anchors">
-urlPrefix: https://fetch.spec.whatwg.org/; spec: FETCH
-    type: dfn
-        text: request; url: concept-request
-        text: response; url: concept-response
-        text: origin; url: concept-request-origin
-        text: CORS-preflight request; url: cors-preflight-request
-        text: CORS protocol; url: cors-protocol
-        text: HTTP-network fetch; url: http-network-fetch
 urlPrefix: https://html.spec.whatwg.org/multipage/; spec: HTML
     type: interface
         text: NavigatorOnLine; url: system-state.html#navigatoronline
@@ -53,10 +45,6 @@ urlPrefix: https://w3c.github.io/hr-time/; spec: HR-TIME
         text: wall clock; url: dfn-wall-clock
         text: unsafe current time; url: dfn-unsafe-current-time
         text: duration from; url: dfn-duration-from
-urlPrefix: https://fetch.spec.whatwg.org/; spec: HTML
-    type: dfn
-        text: network partition key; url: network-partition-key
-        text: determine the network partition key; url: determine-the-network-partition-key
 urlPrefix: https://w3c.github.io/webappsec-mixed-content/; spec: MIXED-CONTENT
     type: dfn
         text: mixed content; url: mixed-content
@@ -65,6 +53,18 @@ urlPrefix: https://url.spec.whatwg.org/; spec: URL
         text: URL serializer; url: concept-url-serializer
         text: url; url: concept-url
         text: IP address; url: ip-address
+urlPrefix: https://fetch.spec.whatwg.org/; spec: FETCH
+    type: dfn
+        text: request; url: concept-request
+        text: response; url: concept-response
+        text: origin; url: concept-request-origin
+        text: CORS-preflight request; url: cors-preflight-request
+        text: CORS protocol; url: cors-protocol
+        text: HTTP-network fetch; url: http-network-fetch
+urlPrefix: https://fetch.spec.whatwg.org/; spec: FETCH
+    type: dfn
+        text: network partition key; url: network-partition-key
+        text: determine the network partition key; url: determine-the-network-partition-key
 urlPrefix: https://fetch.spec.whatwg.org/; spec: FETCH
     type: dfn
         text: reserved client; url: concept-request-reserved-client
